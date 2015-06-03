@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<overlay id="youview" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+	<script type="application/x-javascript" src="chrome://youview/content/youview.js"/>
+	<!-- SeaMonkey Tools menu -->
+	<menupopup id="taskPopup">
+		<menuitem id="yv-menuitem" insertafter="downloadmgr" label="YouView" oncommand="able();"/>
+	</menupopup>
+	<!-- Firefox Tools menu -->
+	<menupopup id="menu_ToolsPopup">
+		<menuitem id="yv-menuitem" insertafter="javascriptConsole" label="YouView" oncommand="able();"/>
+	</menupopup>
+</overlay>

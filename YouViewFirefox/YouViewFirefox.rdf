@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<RDF:RDF xmlns:NS1="http://www.mozilla.org/2004/em-rdf#"
+         xmlns:NC="http://home.netscape.com/NC-rdf#"
+         xmlns:RDF="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <RDF:Seq RDF:about="rdf:#$e05cA2">
+    <RDF:li RDF:resource="rdf:#$f05cA2"/>
+  </RDF:Seq>
+  <RDF:Description RDF:about="rdf:#$i05cA2"
+                   NS1:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
+                   NS1:minVersion="1.5"
+                   NS1:maxVersion="25.*"
+                   NS1:updateLink="http://mrgeckosmedia.com/YouViewFirefox.xpi"
+                   NS1:updateHash="sha512:64c7e73c94f74e1d8a99018a23cd0e9a22cccda61727b6f23f8be35cdd7279d25c4443e751caaae33928ee7655a333db4e8b132a6e52dd8c4884a424a4cee127" />
+  <RDF:Description RDF:about="urn:mozilla:extension:youview@mrgeckosmedia.com"
+                   NS1:signature="MIGTMA0GCSqGSIb3DQEBDQUAA4GBAGSwkM/CtNKBY5L3hgERO5X95VPxm0or74QTDm+aoqGqfGqxby/LBLQzRi3orGUdbDHJFGS7QlvDJyYIlBiRAeWkoemKBwz/qd3VZHFkpYI+tpF9Y9jKkEL4VbvkfYUshMPefojSDlcR9+SpCOmSXK0iFJeipYr3mYeQ3P+o3SfI">
+    <NS1:updates RDF:resource="rdf:#$e05cA2"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="rdf:#$f05cA2"
+                   NS1:version="0.5">
+    <NS1:targetApplication RDF:resource="rdf:#$i05cA2"/>
+  </RDF:Description>
+</RDF:RDF>

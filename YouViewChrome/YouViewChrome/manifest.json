@@ -1,0 +1,20 @@
+{
+	"name": "YouView",
+	"version": "0.2",
+	"update_url": "http://mrgeckosmedia.com/YouViewChrome.xml",
+	"description": "Opens YouTube videos in YouView.",
+	"permissions": [
+		"tabs"
+	],
+	"icons": {
+		"16": "icon-16.png",
+		"32": "icon-32.png",
+		"48": "icon-48.png",
+		"128": "icon-128.png"
+	},
+	"content_scripts": [{
+		"js": ["YouView.js"],
+		"matches": ["http://*.youtube.com/watch*","https://*.youtube.com/watch*","http://*.youtu.be/*","https://*.youtu.be/*"],
+	    "run_at": "document_start"
+	}]
+}

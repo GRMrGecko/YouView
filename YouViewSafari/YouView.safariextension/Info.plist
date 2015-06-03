@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Author</key>
+	<string>Mr. Gecko's Media</string>
+	<key>Builder Version</key>
+	<string>7534.52.7</string>
+	<key>CFBundleDisplayName</key>
+	<string>YouView</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.MrGeckosMedia.YouView</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleShortVersionString</key>
+	<string>0.2</string>
+	<key>CFBundleVersion</key>
+	<string>0.2</string>
+	<key>Chrome</key>
+	<dict/>
+	<key>Content</key>
+	<dict>
+		<key>Scripts</key>
+		<dict>
+			<key>Start</key>
+			<array>
+				<string>YouView.js</string>
+			</array>
+		</dict>
+		<key>Whitelist</key>
+		<array>
+			<string>http://*.youtube.com/watch*</string>
+			<string>https://*.youtube.com/watch*</string>
+			<string>http://*.youtu.be/*</string>
+			<string>https://*.youtu.be/*</string>
+		</array>
+	</dict>
+	<key>Description</key>
+	<string>Opens videos on YouTube in YouView</string>
+	<key>ExtensionInfoDictionaryVersion</key>
+	<string>1.0</string>
+	<key>Permissions</key>
+	<dict>
+		<key>Website Access</key>
+		<dict>
+			<key>Allowed Domains</key>
+			<array>
+				<string>*.youtube.com</string>
+				<string>*.youtu.be</string>
+			</array>
+			<key>Include Secure Pages</key>
+			<true/>
+			<key>Level</key>
+			<string>Some</string>
+		</dict>
+	</dict>
+	<key>Update Manifest URL</key>
+	<string>http://mrgeckosmedia.com/YouViewSafari.plist</string>
+	<key>Website</key>
+	<string>http://mrgeckosmedia.com/</string>
+</dict>
+</plist>

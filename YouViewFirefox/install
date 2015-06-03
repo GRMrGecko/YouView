@@ -1,0 +1,12 @@
+#!/bin/bash
+mkdir build
+rm build/YouViewFirefox.xpi
+zip build/YouViewFirefox.xpi chrome.manifest \
+install.rdf \
+chrome/content/youview.js \
+chrome/content/youview.xul \
+chrome/content/icon-16.png \
+chrome/content/icon-32.png \
+chrome/content/icon-48.png \
+chrome/content/icon.png \
+defaults/preferences/youview.js

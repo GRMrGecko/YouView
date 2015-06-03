@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<r:RDF xmlns:r="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.mozilla.org/2004/em-rdf#">
+	<r:Description about="urn:mozilla:extension:youview@mrgeckosmedia.com">
+		<updates>
+			<r:Seq>
+				<r:li>
+					<r:Description>
+						<version>0.5</version>
+						<targetApplication>
+							<r:Description>
+								<id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</id>
+								<minVersion>1.5</minVersion>
+								<maxVersion>25.*</maxVersion>
+								<updateLink>http://mrgeckosmedia.com/YouViewFirefox.xpi</updateLink>
+								<updateHash>
+									sha512:64c7e73c94f74e1d8a99018a23cd0e9a22cccda61727b6f23f8be35cdd7279d25c4443e751caaae33928ee7655a333db4e8b132a6e52dd8c4884a424a4cee127
+								</updateHash>
+							</r:Description>
+						</targetApplication>
+					</r:Description>
+				</r:li>
+			</r:Seq>
+		</updates>
+	</r:Description>
+</r:RDF>

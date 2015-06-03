@@ -1,0 +1,2 @@
+content     youview    chrome/content/
+overlay chrome://browser/content/browser.xul chrome://youview/content/youview.xul

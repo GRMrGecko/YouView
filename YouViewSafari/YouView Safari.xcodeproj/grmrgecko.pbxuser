@@ -1,0 +1,156 @@
+// !$*UTF8*$!
+{
+	089C1669FE841209C02AAC07 /* Project object */ = {
+		activeBuildConfigurationName = Release;
+		activeTarget = 8D5B49AC048680CD000E48DA /* YouView Safari */;
+		addToTargets = (
+			8D5B49AC048680CD000E48DA /* YouView Safari */,
+		);
+		codeSenseManager = 2AE9679B0F5A5C8B0006B2B7 /* Code sense */;
+		perUserDictionary = {
+			"PBXConfiguration.PBXBreakpointsDataSource.v1:1CA23EDF0692099D00951B8B" = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXBreakpointsDataSource_BreakpointID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					20,
+					329,
+					20,
+					229,
+					229,
+					157,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXBreakpointsDataSource_ActionID,
+					PBXBreakpointsDataSource_TypeID,
+					PBXBreakpointsDataSource_BreakpointID,
+					PBXBreakpointsDataSource_UseID,
+					PBXBreakpointsDataSource_LocationID,
+					PBXBreakpointsDataSource_ConditionID,
+					PBXBreakpointsDataSource_IgnoreCountID,
+					PBXBreakpointsDataSource_ContinueID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					834,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					794,
+					60,
+					20,
+					48,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 317271519;
+			PBXWorkspaceStateSaveDate = 317271519;
+		};
+		sourceControlManager = 2AE9679A0F5A5C8B0006B2B7 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	2AE9679A0F5A5C8B0006B2B7 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	2AE9679B0F5A5C8B0006B2B7 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	2AE9679C0F5A5CF90006B2B7 /* BundleController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1191, 645}}";
+			sepNavSelRange = "{170, 26}";
+			sepNavVisRange = "{0, 485}";
+			sepNavWindowFrame = "{{15, 4}, {1250, 773}}";
+		};
+	};
+	2AE9679D0F5A5CF90006B2B7 /* BundleController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1566, 1326}}";
+			sepNavSelRange = "{300, 473}";
+			sepNavVisRange = "{0, 899}";
+			sepNavWindowFrame = "{{15, 4}, {1250, 773}}";
+		};
+	};
+	2AE967D00F5A6E850006B2B7 /* Safari.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1191, 645}}";
+			sepNavSelRange = "{38, 19}";
+			sepNavVisRange = "{0, 133}";
+			sepNavWindowFrame = "{{15, 4}, {1250, 773}}";
+		};
+	};
+	2AE967D80F5AB58F0006B2B7 /* urlCheck.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1191, 645}}";
+			sepNavSelRange = "{181, 0}";
+			sepNavVisRange = "{0, 672}";
+			sepNavWindowFrame = "{{15, 4}, {1250, 773}}";
+		};
+	};
+	2AE967D90F5AB58F0006B2B7 /* urlCheck.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1629, 780}}";
+			sepNavSelRange = "{1648, 91}";
+			sepNavVisRange = "{189, 2284}";
+			sepNavWindowFrame = "{{15, 4}, {1250, 773}}";
+		};
+	};
+	32DBCF630370AF2F00C91783 /* YouView Safari_Prefix.pch */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1191, 645}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 160}";
+			sepNavWindowFrame = "{{15, 0}, {1250, 773}}";
+		};
+	};
+	8D5B49AC048680CD000E48DA /* YouView Safari */ = {
+		activeExec = 0;
+	};
+	8D5B49B7048680CD000E48DA /* Info.plist */ = {
+		uiCtxt = {
+			sepNavWindowFrame = "{{15, 0}, {1250, 773}}";
+		};
+	};
+}
