@@ -614,6 +614,12 @@ NSString * const MGMILPath = @"path";
 
 - (void)updateControls {
 	if ([[moviePlayer movie] loadState]==-1L) {
+		NSError *error = [[moviePlayer movie] attributeForKey:@"QTMovieLoadStateErrorAttribute"];
+		if (error!=nil) {
+			NSLog(@"%@", error);
+		} else {
+			NSLog(@"No error output for this OS.");
+		}
 		[moviePlayer setMovie:nil];
 		if (updateControlsTimer!=nil) {
 			[updateControlsTimer invalidate];

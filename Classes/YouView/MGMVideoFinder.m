@@ -463,11 +463,7 @@ NSString * const MGMVT3D = @"3D";
 		[theAlert runModal];
 	} else {
 		NSMutableDictionary *info = [NSMutableDictionary dictionary];
-        if (![[MGMSystemInfo info] isAfterSnowLeopard]) {
-            [info setObject:[NSURL URLWithString:[[[video objectForKey:MGMULURL] absoluteString] replace:@"https://" with:@"http://"]] forKey:MGMVLVideoURLKey];
-        } else {
-            [info setObject:[video objectForKey:MGMULURL] forKey:MGMVLVideoURLKey];
-        }
+        [info setObject:[video objectForKey:MGMULURL] forKey:MGMVLVideoURLKey];
         
 		if (![[[videoQualities objectForKey:[video objectForKey:MGMULTag]] objectForKey:MGMVTAudio] boolValue]) {
             [info setObject:[audio objectForKey:MGMULURL] forKey:MGMVLAudioURLKey];
