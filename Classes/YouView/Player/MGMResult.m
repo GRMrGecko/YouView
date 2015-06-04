@@ -68,7 +68,8 @@
 	return @"video";
 }
 - (NSString *)accessibilityDescription {
-	return @"";
+	NSDictionary *snippet = [item objectForKey:@"snippet"];
+	return [snippet objectForKey:@"title"];
 }
 - (NSDictionary *)item {
 	return item;
